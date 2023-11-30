@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker compose exec nginx-fe "/srv/check-nginx-config-and-reload.sh"
